@@ -24,6 +24,9 @@
 		BD5C7478288EE0F6005E5A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD5C747B288EE0F6005E5A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD5C747D288EE0F6005E5A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5C74912890549C005E5A90 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		BD5C7492289054A0005E5A90 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		BD5C7493289054B6005E5A90 /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		BD5C746E288EE0F4005E5A90 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				BD5C749028905490005E5A90 /* Screenshots */,
 				BD5C746F288EE0F4005E5A90 /* AppDelegate.swift */,
 				BD5C7471288EE0F4005E5A90 /* SceneDelegate.swift */,
 				BD5C7473288EE0F4005E5A90 /* ViewController.swift */,
@@ -65,6 +69,16 @@
 				BD5C747D288EE0F6005E5A90 /* Info.plist */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		BD5C749028905490005E5A90 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C74912890549C005E5A90 /* Screenshot01.png */,
+				BD5C7492289054A0005E5A90 /* Screenshot02.png */,
+				BD5C7493289054B6005E5A90 /* Screenshot03.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
